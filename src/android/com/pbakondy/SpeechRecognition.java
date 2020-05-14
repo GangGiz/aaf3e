@@ -43,7 +43,7 @@ public class SpeechRecognition extends CordovaPlugin {
   private static final String GET_SUPPORTED_LANGUAGES = "getSupportedLanguages";
   private static final String HAS_PERMISSION = "hasPermission";
   private static final String REQUEST_PERMISSION = "requestPermission";
-  private static final int MAX_RESULTS = 5;
+  private static final int MAX_RESULTS = 1;
   private static final String NOT_AVAILABLE = "Speech recognition service is not available on the system.";
   private static final String MISSING_PERMISSION = "Missing permission";
 
